@@ -24,20 +24,20 @@
     </dependency>
   </dependencies>
   
- <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
-        <name>S42-Batch-releases</name>
-        <url>http://18.223.120.181:8081/artifactory/vmtutes-repo</url>
+        <name>ip-172-31-44-17.ap-south-1.compute.internal-releases</name>
+        <url>http://13.234.111.182:8081/artifactory/vijay-repo</url>
     </repository>
     <snapshotRepository>
-        <id>central</id>
-        <name>S42-Batch-snapshots</name>
-        <url>http://18.223.120.181:8081/artifactory/vmtutes-repo</url>
+        <id>snapshots</id>
+        <name>ip-172-31-44-17.ap-south-1.compute.internal-snapshots</name>
+        <url>http://13.234.111.182:8081/artifactory/vijay-repo</url>
     </snapshotRepository>
 </distributionManagement>
 
- <build>
+  <build>
     <plugins>
         <plugin>
             <artifactId>maven-deploy-plugin</artifactId>
